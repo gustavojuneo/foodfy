@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #111111;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 50px;
+}
+
+header .logo {
+  width: 30%;
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #111111;
+}
+
+header nav ul li + li a {
+  margin-left: 30px;
+}
+
+header nav ul li a:hover {
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+main .banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto 50px;
+  background-color: #FBDFDB;
+  border-radius: 30px;
+}
+
+main .banner .banner-info {
+  max-width: 40%;
+}
+
+main .banner .banner-info h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+main .banner .banner-info p {
+  color: #000;
+  opacity: 0.7;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+main .banner img {
+  margin-top: 66px;
+}
+
+main h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+main #recipes {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main #recipes .recipe {
+  max-width: 300px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+main #recipes .recipe img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+main #recipes .recipe h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+main #recipes .recipe span {
+  font-size: 14px;
+  color: #777777;
+}
+
+footer {
+  width: 100%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  margin-top: auto;
+}
+
+footer span {
+  color: #999999;
+}
+
+/*=== SOBRE ===*/
+main p {
+  color: #444444;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+main h2 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
